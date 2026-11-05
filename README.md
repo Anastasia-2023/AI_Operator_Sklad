@@ -383,9 +383,11 @@ Iter 5: финальный ответ
 
 4. **Кнопка запуска прогона** — прямо из UI. `POST /api/admin/evals/run` запускает `python evals/run.py` как `subprocess.Popen` в отдельном потоке (не блокирует event loop). stdout стримится через SSE (`GET /api/admin/evals/run/{job_id}/log`), фронт показывает лог в реальном времени. Можно указать `--only rag_002,rag_004` для прогона конкретных кейсов.
 
-<img width="1484" height="677" alt="image" src="https://github.com/user-attachments/assets/eab4e45a-8676-4606-9c32-fc9f4febe35a" />
+<img width="1484" height="677" alt="image" src="https://github.com/user-attachments/assets/ed99cf06-96ae-4ed6-b32d-8d9de42a95bd" />
 
-<img width="1439" height="356" alt="image" src="https://github.com/user-attachments/assets/d719f2cd-9cdc-40f2-9fc2-7c68ffbb809f" />
+
+<img width="1439" height="356" alt="image" src="https://github.com/user-attachments/assets/525ead56-a0d7-4024-8628-9a4850171c08" />
+
 
 
 
